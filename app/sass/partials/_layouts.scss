@@ -1,6 +1,4 @@
-
-
-.navbar-layout-setting{
+.navbar-layout-setting {
 
     margin: 0;
     padding: 0;
@@ -50,9 +48,6 @@
                 &:focus {
                     color: $main-orange;
                     background-color: rgba(12, 184, 182, 0.21);
-                    /* border: 1px solid red;    float: left; */
-                    /* border-left: none; */
-                    /* border-right: none; */
                     border-bottom: 3px solid $main-orange;
 
                 }

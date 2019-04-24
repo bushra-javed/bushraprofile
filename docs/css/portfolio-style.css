@@ -110,7 +110,7 @@ ul {
   border-top-color: #fff;
   border-width: 20px; }
 
-.bg-color, header .bg-color-header, section#banner.rightwindow .banner-bg-color, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center {
+.bg-color, section#banner.rightwindow .banner-bg-color, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center {
   padding-bottom: 30px;
   background-color: RGBA(13, 70, 93, 0.9);
   /* background-color: red; */
@@ -160,9 +160,6 @@ ul {
     .navbar-layout-setting .navbar-nav li a:focus, header .bg-color-header .navbar-default .navbar-nav li a:focus {
       color: #EA6045;
       background-color: rgba(12, 184, 182, 0.21);
-      /* border: 1px solid red;    float: left; */
-      /* border-left: none; */
-      /* border-right: none; */
       border-bottom: 3px solid #EA6045; }
 
 [type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea {
@@ -214,6 +211,12 @@ a:hover {
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.25), transparent);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.25), transparent);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent); }
+
+header .bg-color-header {
+  padding-bottom: 30px;
+  background-color: RGBA(13, 70, 93, 0.9);
+  min-height: 60px;
+  padding-left: -30px !important; }
 
 .green-background-and-shadow, .top-nav-collapse, nav .sidebar-navbar-toggle-button {
   background-color: #1c4a5a;
@@ -604,7 +607,6 @@ section#contact {
 @media (min-width: 756px) {
   .sidebar-navbar-toggle-button,
   .top-nav-collapse {
-    background-color: #1c4a5a;
     box-shadow: 2px 2px 5px #444444; }
   .sidebar-navbar-toggle-button {
     display: none; }

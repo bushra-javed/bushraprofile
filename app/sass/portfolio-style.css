@@ -138,7 +138,7 @@ ul {
   border-width: 20px;
 }
 
-.bg-color, header .bg-color-header, section#banner.rightwindow .banner-bg-color, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center {
+.bg-color, section#banner.rightwindow .banner-bg-color, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-detail-center {
   padding-bottom: 30px;
   background-color: RGBA(13, 70, 93, 0.9);
   /* background-color: red; */
@@ -205,9 +205,6 @@ ul {
 .navbar-layout-setting .navbar-nav li a:focus, header .bg-color-header .navbar-default .navbar-nav li a:focus {
   color: #EA6045;
   background-color: rgba(12, 184, 182, 0.21);
-  /* border: 1px solid red;    float: left; */
-  /* border-left: none; */
-  /* border-right: none; */
   border-bottom: 3px solid #EA6045;
 }
 
@@ -271,6 +268,13 @@ a:hover {
   position: absolute;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(transparent));
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+}
+
+header .bg-color-header {
+  padding-bottom: 30px;
+  background-color: RGBA(13, 70, 93, 0.9);
+  min-height: 60px;
+  padding-left: -30px !important;
 }
 
 .green-background-and-shadow, .top-nav-collapse, nav .sidebar-navbar-toggle-button {
@@ -780,14 +784,34 @@ section#contact .contact .card-bushra h1 a {
   background-color: #fff;
 }
 
-.carousel-title-banner3 .carousel-button img {
-  height: 800px;
-  width: 400px;
-  border: 1px solid red;
+.carousel-button {
+  text-align: center;
 }
 
-.r-img {
-  border: 1px solid red;
+.carousel-button .res-img {
+  height: 700px;
+  width: 70%;
+  margin-right: 10px;
+  -webkit-box-shadow: 1px 4px 4px #444;
+          box-shadow: 1px 4px 4px #444;
+}
+
+.carousel-control-next {
+  color: #000;
+  font-size: 40px;
+}
+
+.carousel-control-next:hover {
+  color: #000;
+}
+
+.carousel-control-prev {
+  color: #000;
+  font-size: 40px;
+}
+
+.carousel-control-prev:hover {
+  color: #000;
 }
 
 @media (max-width: 756px) {
@@ -809,7 +833,6 @@ section#contact .contact .card-bushra h1 a {
 @media (min-width: 756px) {
   .sidebar-navbar-toggle-button,
   .top-nav-collapse {
-    background-color: #1c4a5a;
     -webkit-box-shadow: 2px 2px 5px #444444;
             box-shadow: 2px 2px 5px #444444;
   }

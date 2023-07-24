@@ -76,7 +76,7 @@ ul {
   list-style: none;
 }
 
-.button-class, section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a button, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button {
+.button-class, section#banner.rightwindow .banner-bg-color . .-inner .banner-text a button, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
@@ -91,7 +91,7 @@ ul {
   text-decoration: none;
 }
 
-.button-class:active, section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a button:active, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button:active, .button-class:hover, section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a button:hover, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button:hover {
+.button-class:active, section#banner.rightwindow .banner-bg-color . .-inner .banner-text a button:active, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button:active, .button-class:hover, section#banner.rightwindow .banner-bg-color . .-inner .banner-text a button:hover, section#portfolio.rightwindow .portfolio-bg-color .portfolio-detail .portfolio-text-div1 div .portfolio-all-button:hover {
   -webkit-box-shadow: 0 17px 10px -10px rgba(0, 0, 0, 0.4);
           box-shadow: 0 17px 10px -10px rgba(0, 0, 0, 0.4);
   color: #1c4a5a;
@@ -422,7 +422,7 @@ section#banner.rightwindow {
   text-align: center;
 }
 
-section#banner.rightwindow .banner-bg-color .banner-content {
+section#banner.rightwindow .banner-bg-color . {
   padding-top: 500px;
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.91);
@@ -431,16 +431,16 @@ section#banner.rightwindow .banner-bg-color .banner-content {
   padding: 20px;
 }
 
-section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner {
+section#banner.rightwindow .banner-bg-color . .-inner {
   border: 2px dotted #000;
   padding: 20px;
 }
 
-section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text h1 {
+section#banner.rightwindow .banner-bg-color . .-inner .banner-text h1 {
   margin: 0px;
 }
 
-section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text .bushra {
+section#banner.rightwindow .banner-bg-color . .-inner .banner-text .bushra {
   color: #EA6045;
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -450,12 +450,12 @@ section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inne
   text-transform: uppercase;
 }
 
-section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a {
+section#banner.rightwindow .banner-bg-color . .-inner .banner-text a {
   text-decoration: none;
   color: #fff;
 }
 
-section#banner.rightwindow .banner-bg-color .banner-content .banner-content-inner .banner-text a button {
+section#banner.rightwindow .banner-bg-color . .-inner .banner-text a button {
   color: #fff;
 }
 
